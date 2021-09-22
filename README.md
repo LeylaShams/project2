@@ -28,7 +28,7 @@ E-commerce store that lets users create an account and view products, add produc
 * Add delete and edit functionality for Employee accounts
 
 # Getting Started
-
+https://github.com/LeylaShams/project2-OnlineStore.git
 
 # Usage
 * Run both Spring Boot and Angular with separate local host ports
