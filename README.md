@@ -1,54 +1,39 @@
-Employee Reimbursement Application
-*****************************************************************
-The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can log in and submit requests for reimbursement and view their past tickets and pending requests.
-Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
-****************************************************************
+# Ecommerce Store
+E-commerce store that lets users create an account and view products, add products to cart and checkout their cart. Users can also create employee acccounts that can view all users and view all orders
 
-Technologies Used
-*****************************************************************
-Design:
-DAO / Front-Controller Design Pattern
+# Team Members
+* David Kosal
+* Jong Kim
+* Mohamad Uddin
 
-Backend:
-JAVA
-Servlets
-Hibernate
-Javascript
-AJAX
+# Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Angular 10
+* Spring Boot
+* MySQL
 
-Web-Container:
-Deployed on Tomcat
+# Features
+* Users can register a Customer or Employee account
+* Users can log in and log out
+* Users can browse products and add to cart but must be logged in to checkout cart
+* Employees can also view a list of all users and a list of order history from all customers
+* Items checkouted will be saved to the Orders table in the database 
 
-Database:
-MYSQL
+### Work in Progress
+* Allow orders to save multiple items per customer instead of only 1 item per customer
+* Add a total amount at the bottom of the cart
+* Make QoL changes so users don't have to refresh to use some features
+* Add delete and edit functionality for Employee accounts
 
-Frontend:
-HTML
-CSS
-jQuery
-Bootstrap
+# Getting Started
 
-Testing:
-Postman
 
-**************************************************************************
-
-Features
-**************************************************************************
-
-• All tables  in at 3rd Normal Form.
-
-• The back-end system  use JDBC to connect to the database
-
-• The application deployed onto a Tomcat Server.
-
-• The middle tier uses Servlet technology for dynamic Web application development.
-
-• The front-end view uses JavaScript and AJAX to call server-side components. 
-
-• Logging implemented
-
-To-do list:
-
-Using Sring boot framework to buildup the production ready application
-**********************************************************************************************
+# Usage
+* Run both Spring Boot and Angular with separate local host ports
+* Set origin in Spring Boot to the Angular local host
+* Set url in services in Angular to Spring boot local host
+* Configure tomcat server in Spring Boot
+* Open the browser to the address of the Angular local host
+* Click on the nav bar links to navigate the site
